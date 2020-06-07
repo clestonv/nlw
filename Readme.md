@@ -21,11 +21,13 @@
 
 ## 🎮 Como usar
 
-1. Clonando o repositório
+1. Clonando o repositório <br>
 ```$ git clone https://github.com/clestonv/nlw.git```
-2. Acessando o diretório do projeto
+
+2. Acessando o diretório do projeto <br>
 ```$ cd nlw'```
-3. Instalando as dependências
+
+3. Instalando as dependências <br>
 ```$ yarn OU npm install```
 
 
