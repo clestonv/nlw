@@ -14,37 +14,40 @@
     {% include "partials/page-header.html"%}
 
     <main>
+
+    {% if total > 0 %}
+
         <h4>
-            <strong>2 pontos</strong>
-            encontrados</h4>
+        <strong>{{ total }} pontos</strong>
+        encontrados</h4>
 
         <div class="cards">
+
+            {% for place in places %}
+
             <div class="card">
-                <img src="/assets/eletronico.jpg" alt="Colecteria">
-                <h1>Colecteria</h1>
-                <h3>Resíduos Eletronicos, Lampadas</h3>
+                <img src="{{ place.image }}" alt="{{ place.name }}">
+                <h1>{{ place.name }}</h1>
+                <h3>{{ place.items }}</h3>
                 <p>
-                    Rio do Sul, Santa Catarina
+                    {{ place.city }} , {{ place.state }}
                     <br>
-                    Guilherme Gembala, Jardim America
+                    {{ place.address }}
                     <br>
-                    N° 260
+                    {{ place.address2 }}
                 </p>
             </div>
 
-            <div class="card">
-                <img src="/assets/papelao.jpg" alt="Colecteria">
-                <h1>Papersider</h1>
-                <h3>Papeis e Papelão</h3>
-                <p>
-                    Rio do Sul, Santa Catarina
-                    <br>
-                    Guilherme Gembala, Jardim America
-                    <br>
-                    N° 260
-                </p>
-            </div>
+            {% endfor %}           
+
         </div>
+
+        {%else%}
+        <h4><strong>Nenhum</strong> local encontrado</h4>
+
+    {% endif %}
+
+
     </main>
 {% endblock content %}
 
