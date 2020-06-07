@@ -1,6 +1,6 @@
 # Projeto
 
-**Ecoleta** foi criado duranta a semana promodido pela @Rocketseat Next Level Week
+**Ecoleta** foi criado em uma semana pelo evento promovido pela @Rocketseat **Next Level Week**
 
 ## 🚀 Tecnologias
 
