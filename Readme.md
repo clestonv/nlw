@@ -1,4 +1,11 @@
-# Projeto
+<h1 align="center">
+    <img src="public/assets/logo.svg">
+</h1>
+<h1 align="center">
+    <img src="public/ecoleta.gif">
+</h1>
+
+## 📋 Sobre
 
 **Ecoleta** foi criado em uma semana pelo evento promovido pela @Rocketseat **Next Level Week**
 
@@ -20,15 +27,19 @@
 
 
 ## 🎮 Como usar
+```
+1. Clonando o repositório 
+$ git clone https://github.com/clestonv/nlw.git
 
-1. Clonando o repositório <br>
-```$ git clone https://github.com/clestonv/nlw.git```
+2. Acessando o diretório do projeto 
+$ cd nlw
 
-2. Acessando o diretório do projeto <br>
-```$ cd nlw'```
+3. Instalando as dependências 
+$ npm install
 
-3. Instalando as dependências <br>
-```$ yarn OU npm install```
+4. Executando 
+$ npm start
+```
 
 
 Feito por Cleberson Osorio 🌊
